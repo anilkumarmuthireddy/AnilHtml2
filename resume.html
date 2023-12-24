@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <style>
+        table,td,th
+        {
+            border: 2px solid black ;
+        }
+    </style>
+    <link rel="stylesheet" href="resume.css".css">
 </head>
 <body>
     <h1>My Resume</h1>
@@ -16,8 +21,8 @@
 <h2><u>Career Objective</u></h2>
 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum pariatur itaque fuga error in, dignissimos similique nam vel incidunt molestiae asperiores harum sapiente blanditiis, impedit quasi quibusdam velit atque, laborum enim placeat quisquam consectetur dolore provident! Tenetur impedit neque vero laborum dolorum esse, quo laboriosam beatae odit quidem laudantium quae, eaque, illum animi dicta ab unde. Sequi, provident enim! Corrupti blanditiis repellat suscipit, nulla ab, voluptatem ex adipisci exercitationem quod quas eum sed necessitatibus eligendi dolorem culpa, dolores cumque pariatur eaque. Repellat provident deserunt nulla sed commodi ab distinctio, enim amet cupiditate consequuntur quasi harum optio! Iure dolore praesentium quasi.
 </p>
-<center><h2><u>Education Qualification</u></h2></center>
-<table style="width:75%; border: 2px solid black;">
+<h2><u>Education Qualification</u></h2>
+<table class="tab" id="first">
     <tr>
         <th>S.No</th>
         <th>Cource</th>
@@ -72,7 +77,10 @@
     </section>
     <section>
         <h2><u>Technical Skills</u>
-        </h2><table>
+
+        </h2>
+        <divr id="new">
+        <table class="tab" id="sec">
             <tr>
                 <td>Programming Language  :</td>
                 <td>C,java.</td>
@@ -91,6 +99,7 @@
                 <td>Microsoft Word,Excel,Powerpoint.</td>
             </tr>
         </table>
+    </divr>
     </section>
     <section>
         <h2>Project</h2>
