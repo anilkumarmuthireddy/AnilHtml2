@@ -1,6 +1,7 @@
 #new
 {
-    background: radial-gradient( red,green,blue,pink,yellow);
+    background: radial-gradient( red,green,blue);
+    text-align: center;
 }
 
 #img
@@ -8,3 +9,12 @@
     height: 500px;
     width: 500px;
 }
+ #two
+ {
+    background-color:aqua;
+    text-align: center;
+ }
+ #three
+ {
+    background-color:bisque;
+ }
