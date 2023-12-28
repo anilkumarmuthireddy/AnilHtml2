@@ -1,0 +1,50 @@
+.ploe
+{
+    height: 50VH;
+    width: 200px;
+    border: 2px solid black;
+   border-radius: 90px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   gap: 20PX;
+   flex-direction: column;
+  
+}
+   
+
+body
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:dimgray;
+    height: 80vh;
+    
+}
+.light
+{
+    border: 1px solid;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 100PX;
+   
+}
+.light:nth-child(1):hover{
+    background-color: red;
+}
+.light:nth-child(2):hover{
+    background-color: orange;
+}
+.light:nth-child(3):hover{
+    background-color: green;
+}
+.stand{
+    border: 1px solid;
+    height: 100px;
+    width: 10px;
+    background-color:black;
+    border-radius: 10px 20px;
+}
